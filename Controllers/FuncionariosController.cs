@@ -25,7 +25,8 @@ namespace Aula03RH.Controllers
         };
 
         //Próximos códigos aqui
-        [HttpGet("GetFirst")]        
+
+        [HttpGet("GetFirst")]
         public IActionResult GetFirst()
         {
             Funcionario f = lista[0];
@@ -38,6 +39,13 @@ namespace Aula03RH.Controllers
             return Ok(lista);
         }
 
+        [HttpGet("{id}")]
+        public IActionResult GetSingle(int id)
+        {
+            Funcionario f = lista.FirstOrDefault(func => func.Id == id);
+            return Ok(f);
+        }
+
         [HttpPost]
         public IActionResult AddFuncionario(Funcionario novoFuncionario)
         {
@@ -48,26 +56,26 @@ namespace Aula03RH.Controllers
 
 
 
-        
-   
-   
-   
-   
-   
-   
-   
-   
-   
-   
-   
-   
-   
-   
-   
-   
-   
-   
-   
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
     }
 }
 
