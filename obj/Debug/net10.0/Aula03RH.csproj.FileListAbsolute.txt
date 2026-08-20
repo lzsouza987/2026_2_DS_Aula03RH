@@ -31,3 +31,4 @@ D:\PastaLocal\2DS\DS_Luiz-Quiteria\Aula03RH\obj\Debug\net10.0\refint\Aula03RH.dl
 D:\PastaLocal\2DS\DS_Luiz-Quiteria\Aula03RH\obj\Debug\net10.0\Aula03RH.pdb
 D:\PastaLocal\2DS\DS_Luiz-Quiteria\Aula03RH\obj\Debug\net10.0\Aula03RH.genruntimeconfig.cache
 D:\PastaLocal\2DS\DS_Luiz-Quiteria\Aula03RH\obj\Debug\net10.0\ref\Aula03RH.dll
+D:\PastaLocal\2DS\DS_Luiz-Quiteria\Aula03RH\obj\Debug\net10.0\Aula03RH.sourcelink.json
